@@ -137,20 +137,6 @@ nav>ul {
     background: #404bbf;
 }
 
-.footer {
-    background: #2e2f42;
-    color: #f4f4fd;;
-}
-
-.logo-text-footer {
-    color: #f4f4fd;
-}
-
-.footer-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .advantages {
     padding: 120px 0;
 }
@@ -272,4 +258,25 @@ nav>ul {
 .portfolio-cards-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer {
+    background: #2e2f42;
+    color: #f4f4fd;
+    padding: 100px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-text-footer {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
 }
