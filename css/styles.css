@@ -103,7 +103,7 @@ nav>ul {
 
 .solutions {
     background: #2e2f42;
-    padding: 180px 0;
+    padding: 188px 0;
 }
 
 .page-title {
@@ -155,6 +155,10 @@ nav>ul {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 .advantages-list {
     display: flex;
     gap: 24px;
@@ -202,10 +206,11 @@ nav>ul {
 .team-cards {
     background: #fff;
     max-width: 264px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-cards-container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .title-team-cards {
@@ -240,6 +245,7 @@ nav>ul {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     align-content: center;
 }
 
@@ -260,6 +266,7 @@ nav>ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-cards-paragraph {
