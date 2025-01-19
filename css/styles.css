@@ -1,7 +1,38 @@
+ul,ol {
+    list-style-type: none;  
+    margin: 0 0;
+    padding-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0 0;
+}
+
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #FFFFFF;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .navigation-link, .address-link{
@@ -11,13 +42,32 @@ body {
     color: #434455 ;
 }
 
+.navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .navigation-link {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .address {
     font-style: normal;
     color: #434455;
+    display: flex;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.address-link {
+    padding: 24px 0;
 }
 
 .logo {
@@ -30,13 +80,13 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 
 .logo-text {
     color: #2e2f42;
-}
-
-ul {
-    list-style-type: none;  
 }
 
 nav>ul {
@@ -50,6 +100,7 @@ nav>ul {
 
 .solutions {
     background: #2e2f42;
+    padding: 120px 0;
 }
 
 .page-title {
@@ -58,13 +109,11 @@ nav>ul {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-}
-
-h2 {
-    text-align: center;
+    margin: 0 auto;
 }
 
 .button-order {
+    display: block;
     background: #4d5ae5;
     color: #fff;
     font-weight: 500;
@@ -72,6 +121,9 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin: 48px auto;
+    padding: 16px 32px;
+    border: 0;
 }
 
 .button-order:hover,
